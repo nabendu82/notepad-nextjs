@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.left{
+    flex: 1;
+    padding: 10px;
+}
+
+.right{
+    flex: 4;
+    padding: 10px;
+}
+
+.button {
+    width: 15rem;
+    height: 2rem;
+    cursor: pointer;
+    background-color: black;
+    color: whitesmoke;
+    border: black;
+    font-family: 'Roboto';
+}
+
+.input{
+    width: 15rem;
+    height: 2rem;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: 5px 0;
+}
+
+.saveBtn{
+    width: 15rem;
+    height: 2rem;
+    cursor: pointer;
+    background-color: rgb(119, 27, 27);
+    color: whitesmoke;
+    border: rgb(119, 27, 27);
+    font-family: 'Roboto';
+}
+
+.textarea{
+    width: 15rem;
+    height: 10rem;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: 5px 0;
+}
+
+.notesInner{
+    margin-top: 0.5rem;
+    border: 1px solid rgb(119, 27, 27);
+    border-radius: 10px;
+    width: 15rem;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Roboto";
+}
+
+.notesInner:hover{
+    background-color: rgb(119, 27, 27);
+    color: whitesmoke;
+}
+
+.editBtn, .deleteBtn{
+    width: 5rem;
+    height: 2rem;
+    background-color: rgb(119, 27, 27);
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    margin: 10px 10px 10px 0;
+}
